@@ -26,6 +26,11 @@ The game continues until the user guesses the correct number.
 ## Concepts Used
 
 - C++ basics
+- Object-Oriented Programming (OOP)
+- Class
+- Object
+- Private data members
+- Public member function
 - Variables
 - Input and Output
 - Conditional statements
@@ -38,13 +43,16 @@ The game continues until the user guesses the correct number.
 
 ## How the Program Works
 
-1. The program generates a random number between 1 and 100.
-2. The user enters a guess.
-3. The program compares the guess with the secret number.
-4. If the guess is greater than the secret number, it displays "Too high".
-5. If the guess is smaller than the secret number, it displays "Too low".
-6. If the guess is correct, it displays a success message.
-7. The game stops after the correct number is guessed.
+1. The program creates a `NumberGuessingGame` class.
+2. An object of the class is created in `main()`.
+3. The `playGame()` function starts the game.
+4. The program generates a random number between 1 and 100.
+5. The user enters a guess.
+6. The program compares the guess with the secret number.
+7. If the guess is greater than the secret number, it displays "Too high".
+8. If the guess is smaller than the secret number, it displays "Too low".
+9. If the guess is correct, it displays a success message.
+10. The game stops after the correct number is guessed.
 
 ## How to Compile
 
